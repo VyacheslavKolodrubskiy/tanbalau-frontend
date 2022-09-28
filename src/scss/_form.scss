@@ -1,0 +1,55 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type="number"] {
+  -moz-appearance: textfield;
+  /* Firefox */
+}
+
+.ant-select,
+.ant-input,
+.ant-picker,
+.ant-input-number,
+.input {
+  width: 100%;
+}
+
+.cart_item {
+  .input {
+    width: 100%;
+    height: 40px;
+  }
+  &-file {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.ant-form-vertical .ant-form-item-label label {
+  display: block;
+  @include text-truncate();
+}
+
+.disable-truncate .ant-select-item-option-content {
+  white-space: normal;
+}
+
+.multiline-labels-form .ant-form-item-label {
+  white-space: normal;
+  overflow: unset;
+  line-height: 1.2;
+  label {
+    white-space: normal;
+    height: 100%;
+  }
+  span {
+    margin-top: 0;
+  }
+}
+
+.min-height-300 {
+  min-height: 300px;
+}

@@ -1,0 +1,113 @@
+.group-table-wrapper {
+  display: flex;
+}
+.group-table {
+  flex: 1 1 auto;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 70vh;
+  border: 1px solid $border-color;
+  min-width: 0;
+  overflow: auto;
+  .ant-form-item {
+    margin-bottom: 0;
+  }
+  &__scroller {
+    flex: 1;
+    display: flex;
+    flex-wrap: nowrap;
+    //.group-table__col:first-child {
+    //  position: sticky;
+    //  left: 0;
+    //  z-index: 5;
+    //}
+  }
+  &__col {
+    flex: 0 0 260px;
+    align-self: flex-start;
+  }
+  &__col--head {
+    flex: 0 0 210px;
+    line-height: 1.2;
+    position: -webkit-sticky;
+    position: sticky;
+    left: 0;
+    z-index: 5;
+  }
+  &__cell {
+    display: flex;
+    align-items: center;
+    height: 64px;
+    padding-left: 12px;
+    padding-right: 12px;
+    background-color: #ffffff;
+    border-bottom: 1px solid $border-color;
+  }
+  &__cell:last-child {
+    border-bottom: none;
+  }
+  &__cell > .ant-row {
+    flex: 1 1 auto;
+  }
+  &__cell--title,
+  &__cell--secondary {
+    position: -webkit-sticky;
+    position: sticky;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    background-color: $gray-200;
+    font-size: 14px;
+    font-weight: 600;
+  }
+  &__cell--title {
+    top: 0;
+    height: 54px;
+  }
+  &__cell--secondary {
+    top: 54px;
+    height: 30px;
+  }
+}
+
+.providers {
+  .colored__row {
+    background: rgba(235, 87, 87, 0.34);
+  }
+  
+  .ant-table-cell-fix-left, .ant-table-cell-fix-right {
+    background: transparent;
+  }
+}
+
+.table-header {
+  padding: 16px;
+  font-size: 16px;
+  background-color: $gray-300;
+}
+
+.table--total-row .ant-table-tbody tr:last-child {
+  background-color: $gray-200;
+  font-weight: 700;
+}
+
+.ant-table-thead > tr > th {
+  color: $body-color;
+  font-weight: 600;
+}
+
+.marking-code-add-table {
+  td {
+    vertical-align: baseline;
+
+  }
+}
+
+.print-table {
+  .ant-table-expanded-row > .ant-table-cell {
+    padding: 0;
+  }
+  .ant-table-expanded-row .ant-table {
+    margin: 0 !important;
+  }
+}

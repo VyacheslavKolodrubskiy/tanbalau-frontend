@@ -1,0 +1,28 @@
+@import "mixins/mixins";
+@import "functions/functions";
+@import "variables";
+
+// Utilities
+//@import "utilities/align";
+//@import "utilities/background";
+@import "utilities/border";
+@import "utilities/display";
+@import "utilities/embed";
+@import "utilities/flex";
+@import "utilities/interactions";
+@import "utilities/overflow";
+@import "utilities/position";
+@import "utilities/sizing";
+@import "utilities/spacing";
+@import "utilities/text";
+@import "utilities/utilities";
+@import "utilities/ratio";
+
+// Base
+@import "animations"; // Общие стили
+@import "base"; // Общие стили
+@import "table"; // Общие стили
+
+// Components
+@import "form";
+@import "button";

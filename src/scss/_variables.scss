@@ -1,0 +1,125 @@
+// Colors
+$white: #ffffff;
+$black: #000000;
+
+$gray-100: #f8f9fa;
+$gray-200: #e9ecef;
+$gray-300: #dee2e6;
+$gray-400: #ced4da;
+$gray-500: #adb5bd;
+$gray-600: #6c757d;
+$gray-700: #495057;
+$gray-800: #343a40;
+$gray-900: #262626;
+
+
+$blue: #1890ff;
+$green: #219653;
+$orange: #f2994a;
+$darkOrange: #FA541C;
+$yellow: #f2c94c;
+$red: #eb5757;
+$purple: #9b51e0;
+$pink: #EB2F96;
+$fuchsia: #f178b6;
+$telegram-color:#2D9CDB;
+
+
+$primary: $blue;
+$success: $green;
+$warning: $orange;
+$info: $yellow;
+$danger: $red;
+
+$theme-colors: (
+  "primary":    $primary,
+  //"secondary":  $secondary,
+  "success":    $success,
+  "info":       $info,
+  "warning":    $warning,
+  "danger":     $danger,
+  //"light":      $light,
+  //"dark":       $dark
+);
+
+$grays: (
+  "100": $gray-100,
+  "200": $gray-200,
+  "300": $gray-300,
+  "400": $gray-400,
+  "500": $gray-500,
+  "600": $gray-600,
+  "700": $gray-700,
+  "800": $gray-800,
+  "900": $gray-900
+);
+
+// Base
+$body-bg: #fbfbfb;
+$body-color: $gray-900;
+$link-color: $primary;
+$font-size-base: 14px; // major text font size
+$line-height-sm: 1.2;
+$line-height-base: 1.5;
+
+$border-radius: 4px; // major border radius
+$border-color: #d9d9d9; // major border color
+$border-width: 1px;
+
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+$font-weight-heavy: 900;
+
+$border-radius: .25rem;
+$border-radius-lg: .3rem;
+$border-radius-sm: .2rem;
+$rounded-pill: 50rem;
+
+$spacer: 1rem;
+$spacers: (
+  0: 0,
+  1: ($spacer * .25),
+  2: ($spacer * .5),
+  3: ($spacer * .75),
+  4: $spacer,
+  5: ($spacer * 1.25),
+  6: ($spacer * 1.5),
+  7: ($spacer * 3)
+);
+
+$grid-breakpoints: (
+  xs: 0,
+  sm: 576px,
+  md: 768px,
+  lg: 992px,
+  xl: 1200px
+);
+
+$embed-responsive-aspect-ratios: (
+  (21 9),
+  (16 9),
+  (4 3),
+  (1 1),
+);
+$sizes: (
+  25: 25%,
+  50: 50%,
+  75: 75%,
+  100: 100%,
+  auto: auto
+);
+
+$aspect-ratios: (
+  "1x1": 100%,
+  "4x3": calc(3 / 4 * 100%),
+  "16x9": calc(9 / 16 * 100%),
+  "21x9": calc(9 / 21 * 100%),
+);
+
+$displays: none, inline, inline-block, block, flex, inline-flex;
+$overflows: auto, hidden;
+$positions: static, relative, absolute, fixed, sticky;
+$user-selects: all, auto, none;
+$font-sizes: 11 12 14 16 18 20 24 28 32 34 70;

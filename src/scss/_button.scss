@@ -1,0 +1,74 @@
+.btn--success {
+  background: $success;
+  color: #ffffff;
+  border: 0;
+  &:hover,
+  &:focus {
+    background: lighten($success, 5%);
+    color: #ffffff;
+  }
+}
+.btn--warning {
+  background: $warning;
+  color: #ffffff;
+  border: 0;
+  &:hover,
+  &:focus {
+    background: lighten($warning, 5%);
+    color: #ffffff;
+  }
+}
+.btn--telegram {
+  $telegram-color: #2d9cdb;
+  background: $telegram-color;
+  color: #ffffff;
+  border: 0;
+  &:hover,
+  &:focus {
+    background: lighten($telegram-color, 5%);
+    color: #ffffff;
+  }
+}
+.btn--gray {
+  background: $gray-600;
+  color: #ffffff;
+  border: 0;
+  &:hover,
+  &:focus {
+    background: lighten($gray-600, 5%);
+    color: #ffffff;
+  }
+}
+.btn--icon {
+  width: 1.5em;
+  padding: 0;
+  background: transparent;
+  color: $body-color;
+  border: 0;
+  &:hover,
+  &:focus {
+    background: transparent;
+    color: $body-color;
+  }
+}
+.btn--purple {
+  color: #FFFFFF;
+  background: $purple;
+  border: 0;
+  &:hover,
+  &:focus {
+    background: lighten($purple, 5%);
+    color: #ffffff;
+
+  }
+}
+.btn--pink {
+  color: #FFFFFF;
+  background: $pink;
+  border: 0;
+  &:hover,
+  &:focus {
+    background: lighten($pink, 5%);
+    color: #ffffff;
+  }
+}
